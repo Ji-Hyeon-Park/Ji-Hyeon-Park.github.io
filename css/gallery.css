@@ -1,0 +1,42 @@
+.swiper-slide .image{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: all 500ms ease;
+    border-radius: 15px;
+}
+
+.swiper-slide .text{
+    position: absolute;
+    bottom: 40px;
+    font-size: 40px;
+    left: 20px;
+    opacity: 0;
+    transition: opacity 500ms;
+    color: white;
+}
+
+.swiper-slide:hover .text{
+    opacity: 1;
+}
+.swiper-slide:hover .image{
+    -webkit-filter: brightness(50%);
+}
+
+
+.swiper-slide .slide1{
+    background-image: url('../assets/gallery/gallery1.jpg');
+}
+
+.swiper-slide .slide2{
+    background-image: url('../assets/gallery/gallery2.jpg');
+}
+
+.swiper-slide .slide3{
+    background-image: url('../assets/gallery/gallery3.jpg');
+}
+
+.swiper-slide .slide4{
+    background-image: url('../assets/gallery/gallery4.jpg');
+}
